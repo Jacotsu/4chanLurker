@@ -1,6 +1,6 @@
 # 4chanLurker
 ##Synopsis
-4chaLurker is nothing more than a simple script made for fun, it'0s only purpose is to fetch and show a random image from one of the specified boards
+4chaLurker is nothing more than a simple script made for fun, it's only purpose is to fetch and show a random image from one of the specified boards
 ##Installation
 Just download the 4chanLurker folder and make the **4chanLurker.py** file executable:
 
@@ -13,7 +13,7 @@ then execute the file with
 ##Configuration
 The **conf.json** file contains the configuration of the script.
 
--`boards`: this key should be associated with a string which contains one or more board names separated by a single space. This key definesfrom which boards you'll be pulling the images
+-`boards`: this key should be associated with a string which contains one or more board names separated by a single space. This key defines from which boards you'll be pulling the images
 
 -`chanDomain`: this key should be associated with a string which contains the domain of imageboard that hosts the images (The site must implement 4chan's json api, otherwhise this script won't work as it is)
 
