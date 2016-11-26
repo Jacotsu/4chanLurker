@@ -40,7 +40,8 @@ class PostSifter():
 
         "A post without an image is boring"
         while len(data["posts"]) > 0:
-            chosen_one = data["posts"].pop(randint(0, len(data["posts"])-1))
+            chosen_one = random.choice(data["posts"])
+            data["posts"].remove(chosen_one)
             if "filename" in chosen_one:
                 break
 
