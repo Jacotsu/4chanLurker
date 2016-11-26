@@ -2,7 +2,7 @@
 #Released under apache license 2.0, no warranties included in this software and it's not meant for
 #any production purpose. I decline any responsibility
 #copyright 2016 Raffaele Di Campli
-#rom PostSifter import *
+from PostSifter import *
 import logging, sys, subprocess, time, threading
 import json
 
