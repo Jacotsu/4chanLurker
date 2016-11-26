@@ -15,7 +15,7 @@ The **conf.json** file contains the configuration of the script.
 
 -`boards`: this key should be associated with a string which contains one or more board names separated by a single space. This key defines from which boards you'll be pulling the images
 
--`chanDomain`: this key should be associated with a string which contains the domain of imageboard that hosts the images (The site must implement 4chan's json api, otherwhise this script won't work as it is)
+-`chanDomain`: this key should be associated with a string which contains the domain of imageboard that hosts the images (The site must implement 4chan's json api, otherwise this script won't work as it is)
 
 -`command`:this key should be associated with a string which contains the command that will be executed when the image is downloaded (the image is passed through STDIN, command chains are not supported)
 
