@@ -31,7 +31,7 @@ if __name__ == "__main__":
     p = subprocess.Popen(config["command"], stdin=subprocess.PIPE,
                          stdout=subprocess.PIPE)
 
-    "must use multithreading because subprocess.communicate() is blocking"
+    #must use multithreading because subprocess.communicate() is blocking
     thr = threading.Thread(target=p.communicate, args=(post.image,))
     thr.start()
 
