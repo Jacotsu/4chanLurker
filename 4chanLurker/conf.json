@@ -1,0 +1,6 @@
+{
+"boards":"h b pol hc d k s4s gif",
+"chanDomain":"4cdn.org",
+"command":"display -flatten -backdrop -background #3f3f3f -resize 1920x1080",
+"delay":10
+}
