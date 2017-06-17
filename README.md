@@ -1,7 +1,7 @@
 # 4chanLurker
-##Synopsis
+## Synopsis
 4chaLurker is nothing more than a simple script made for fun, it's only purpose is to fetch and show a random image from one of the specified boards
-##Installation
+## Installation
 Just download the 4chanLurker folder and make the **4chanlurker.py** file executable:
 
 `chmod +x 4chanlurker.py`
@@ -10,7 +10,7 @@ then execute the file with
 
 `./4chanlurker.py`
 
-##Configuration
+## Configuration
 The **conf.json** file contains the configuration of the script.
 
 -`boards`: this key should be associated with a string which contains one or more board names separated by a single space. This key defines from which boards you'll be pulling the images
@@ -21,4 +21,4 @@ The **conf.json** file contains the configuration of the script.
 
 -`delay`: this key should contain an integer which represents for how long the image will be shown before being closed (number in seconds)
 
-##Enjoy
+## Enjoy
